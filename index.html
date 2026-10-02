@@ -125,6 +125,19 @@
       margin-bottom: 25px;
     }
 
+    /* Agency Badge Link Wrapper */
+    .agency-link {
+      display: block;
+      text-decoration: none;
+      margin-bottom: 20px;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .agency-link:hover {
+      opacity: 0.9;
+      transform: scale(1.02);
+    }
+
     /* Agency Badge */
     .agency-badge {
       border: 1px solid rgba(255, 255, 255, 0.15);
@@ -133,7 +146,6 @@
       padding: 10px;
       font-size: 12px;
       color: #a0aec0;
-      margin-bottom: 20px;
     }
 
     .agency-badge span {
@@ -210,10 +222,12 @@
       नियत अच्छी और मेहनत सच्ची हो, तो कामयाबी जरूर मिलती है।
     </p>
 
-    <!-- Agency Credit -->
-    <div class="agency-badge">
-      This Channel Advertise By <span>AI ADS AGENCY</span>
-    </div>
+    <!-- Agency Credit Link (अब यह क्लिक करने पर सीधे आपके टेलीग्राम पर ले जाएगा) -->
+    <a href="https://t.me/+jViKIQmWTLFmNjNl" target="_blank" class="agency-link">
+      <div class="agency-badge">
+        This Channel Advertise By <span>AI ADS AGENCY</span>
+      </div>
+    </a>
 
     <!-- Footer Links -->
     <div class="footer-links">
@@ -226,6 +240,7 @@
     </div>
 
   </div>
+
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
