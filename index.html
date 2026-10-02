@@ -95,7 +95,7 @@
       margin-bottom: 20px;
     }
 
-    /* Gradient Join Button */
+    /* Gradient Join Button (Working Power Button) */
     .btn-telegram {
       display: block;
       width: 100%;
@@ -110,11 +110,16 @@
       text-transform: uppercase;
       box-shadow: 0 4px 15px rgba(0, 198, 255, 0.4);
       margin-bottom: 20px;
-      transition: transform 0.2s ease;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+      cursor: pointer;
     }
 
     .btn-telegram:active {
       transform: scale(0.98);
+    }
+
+    .btn-telegram:hover {
+      opacity: 0.95;
     }
 
     /* Hindi Quote */
@@ -125,17 +130,11 @@
       margin-bottom: 25px;
     }
 
-    /* Agency Badge Link Wrapper */
+    /* Agency Link */
     .agency-link {
       display: block;
       text-decoration: none;
       margin-bottom: 20px;
-      transition: transform 0.2s ease, opacity 0.2s ease;
-    }
-
-    .agency-link:hover {
-      opacity: 0.9;
-      transform: scale(1.02);
     }
 
     /* Agency Badge */
@@ -212,7 +211,7 @@
       Join our learning community and grow your knowledge
     </p>
 
-    <!-- Join Button -->
+    <!-- Join Button (Power Button - अब सीधे आपके Telegram पर रीडायरेक्ट करेगा) -->
     <a href="https://t.me/+9xGiDD61YpM3MzRl" class="btn-telegram">
       JOIN TELEGRAM
     </a>
@@ -222,7 +221,7 @@
       नियत अच्छी और मेहनत सच्ची हो, तो कामयाबी जरूर मिलती है।
     </p>
 
-    <!-- Agency Credit Link (अब यह क्लिक करने पर सीधे आपके टेलीग्राम पर ले जाएगा) -->
+    <!-- Agency Credit Link -->
     <a href="https://t.me/+jViKIQmWTLFmNjNl" target="_blank" class="agency-link">
       <div class="agency-badge">
         This Channel Advertise By <span>AI ADS AGENCY</span>
